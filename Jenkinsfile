@@ -2,8 +2,8 @@ pipeline {
     agent any
     environment {
         GIT_REPO = 'https://github.com/deepak-pathak-01/nginx-content.git'
-        AWS_SERVER = 'ubuntu@13.235.133.64'
-        AZURE_SERVER = 'azureuser@172.191.198.166'
+        AWS_SERVER = 'ubuntu@13.233.61.14'
+        AZURE_SERVER = 'azureuser@172.173.142.39'
         AWS_KEY = '/var/lib/jenkins/.ssh/aws-key1.pem'
         AZURE_KEY = '/var/lib/jenkins/.ssh/MyVM_key.pem'
     }
